@@ -9,7 +9,7 @@ define(function(require) {
 
         ActiveFiltersView,
 
-        activeFiltersTemplate = require('text!learners/roster/templates/active-filters.underscore');
+        activeFiltersTemplate = require('learners/roster/templates/active-filters.underscore');
 
     ActiveFiltersView = Marionette.ItemView.extend({
         events: {

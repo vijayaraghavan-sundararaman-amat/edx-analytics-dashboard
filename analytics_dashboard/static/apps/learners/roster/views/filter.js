@@ -12,7 +12,7 @@ define(function(require) {
         Marionette = require('marionette'),
 
         Utils = require('utils/utils'),
-        filterTemplate = require('text!learners/roster/templates/filter.underscore'),
+        filterTemplate = require('learners/roster/templates/filter.underscore'),
 
         Filter;
 

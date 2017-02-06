@@ -9,7 +9,7 @@ define(function(require) {
 
         LearnerFilter = require('learners/roster/views/filter'),
         LearnerSearch = require('learners/roster/views/search'),
-        rosterControlsTemplate = require('text!learners/roster/templates/controls.underscore'),
+        rosterControlsTemplate = require('learners/roster/templates/controls.underscore'),
 
         RosterControlsView;
 

@@ -12,7 +12,7 @@ define(function(require) {
         CourseListResultsView = require('course-list/list/views/results'),
         ListView = require('components/generic-list/list/views/list'),
 
-        listTemplate = require('text!course-list/list/templates/list.underscore'),
+        listTemplate = require('course-list/list/templates/list.underscore'),
 
         CourseListView;
 

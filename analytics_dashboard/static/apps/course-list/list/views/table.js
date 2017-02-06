@@ -9,7 +9,7 @@ define(function(require) {
         ListTableView = require('components/generic-list/list/views/table'),
 
         CourseIdAndNameCell = require('course-list/list/views/course-id-and-name-cell'),
-        courseListTableTemplate = require('text!course-list/list/templates/table.underscore'),
+        courseListTableTemplate = require('course-list/list/templates/table.underscore'),
         Utils = require('utils/utils'),
 
         INTEGER_COLUMNS = ['count', 'cumulative_count', 'count_change_7_days', 'verified_enrollment'],

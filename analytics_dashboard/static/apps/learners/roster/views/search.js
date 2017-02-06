@@ -14,7 +14,7 @@ define(function(require) {
         _ = require('underscore'),
         Backgrid = require('backgrid'),
 
-        learnerSearchTemplate = require('text!learners/roster/templates/search.underscore'),
+        learnerSearchTemplate = require('learners/roster/templates/search.underscore'),
 
         LearnerSearch;
 

@@ -8,7 +8,7 @@ define(function(require) {
     var _ = require('underscore'),
         Backgrid = require('backgrid'),
 
-        courseIdAndNameCellTemplate = require('text!course-list/list/templates/course-id-and-name-cell.underscore'),
+        courseIdAndNameCellTemplate = require('course-list/list/templates/course-id-and-name-cell.underscore'),
 
         CourseIdAndNameCell;
 
